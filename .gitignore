@@ -1,0 +1,40 @@
+# Node
+/frontend/RoadSenseAI/node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+/frontend/RoadSenseAI/.next/
+/frontend/RoadSenseAI/out/
+/frontend/RoadSenseAI/build/
+
+# Python
+/backend/__pycache__/
+*.pyc
+*.pyo
+/backend/venv/
+/backend/env/
+
+# Environment Variables
+/frontend/RoadSenseAI/.env
+/frontend/RoadSenseAI/.env.local
+/frontend/RoadSenseAI/.env.development.local
+/frontend/RoadSenseAI/.env.test.local
+/frontend/RoadSenseAI/.env.production.local
+
+# Logs
+/frontend/RoadSenseAI/npm-debug.log*
+/frontend/RoadSenseAI/yarn-debug.log*
+/frontend/RoadSenseAI/yarn-error.log*
+
+# MacOS / OS
+/frontend/RoadSenseAI/.DS_Store
+/frontend/RoadSenseAI/Thumbs.db
+
+# IDE
+/frontend/RoadSenseAI/.idea/
+/frontend/RoadSenseAI/.vscode/
+
+# Project Specific Database Defaults
+/backend/static/violations/
+/backend/static/violations.json
